@@ -15,6 +15,11 @@
 		4917406815974E57000E6A94 /* QuizAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4917406715974E57000E6A94 /* QuizAppDelegate.m */; };
 		4917406B15974E57000E6A94 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4917406A15974E57000E6A94 /* QuizViewController.m */; };
 		4917406E15974E57000E6A94 /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4917406C15974E57000E6A94 /* QuizViewController.xib */; };
+		491740791597782E000E6A94 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 491740781597782E000E6A94 /* Icon.png */; };
+		4917407B15977836000E6A94 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4917407A15977836000E6A94 /* Icon@2x.png */; };
+		4917407D159A108E000E6A94 /* Pronto_Icon_64.png in Resources */ = {isa = PBXBuildFile; fileRef = 4917407C159A108E000E6A94 /* Pronto_Icon_64.png */; };
+		4917407F159A119D000E6A94 /* Pronto_Icon_64 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 4917407E159A119D000E6A94 /* Pronto_Icon_64 copy.png */; };
+		49174081159A11DC000E6A94 /* Pronto_Icon_114 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 49174080159A11DC000E6A94 /* Pronto_Icon_114 copy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +27,20 @@
 		4917405715974E57000E6A94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4917405915974E57000E6A94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4917405B15974E57000E6A94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4917405F15974E57000E6A94 /* Quiz-Info.plist */ = {isa = PBXFileReference; path = "Quiz-Info.plist"; sourceTree = "<group>"; };
+		4917405F15974E57000E6A94 /* Quiz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quiz-Info.plist"; sourceTree = "<group>"; };
 		4917406115974E57000E6A94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4917406315974E57000E6A94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4917406515974E57000E6A94 /* Quiz-Prefix.pch */ = {isa = PBXFileReference; path = "Quiz-Prefix.pch"; sourceTree = "<group>"; };
-		4917406615974E57000E6A94 /* QuizAppDelegate.h */ = {isa = PBXFileReference; path = QuizAppDelegate.h; sourceTree = "<group>"; };
+		4917406515974E57000E6A94 /* Quiz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quiz-Prefix.pch"; sourceTree = "<group>"; };
+		4917406615974E57000E6A94 /* QuizAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizAppDelegate.h; sourceTree = "<group>"; };
 		4917406715974E57000E6A94 /* QuizAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizAppDelegate.m; sourceTree = "<group>"; };
-		4917406915974E57000E6A94 /* QuizViewController.h */ = {isa = PBXFileReference; path = QuizViewController.h; sourceTree = "<group>"; };
+		4917406915974E57000E6A94 /* QuizViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
 		4917406A15974E57000E6A94 /* QuizViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
 		4917406D15974E57000E6A94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QuizViewController.xib; sourceTree = "<group>"; };
+		491740781597782E000E6A94 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		4917407A15977836000E6A94 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		4917407C159A108E000E6A94 /* Pronto_Icon_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pronto_Icon_64.png; path = ../../../core_redo/plugins/blog_feed/img/Pronto_Icon_64.png; sourceTree = "<group>"; };
+		4917407E159A119D000E6A94 /* Pronto_Icon_64 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pronto_Icon_64 copy.png"; sourceTree = "<group>"; };
+		49174080159A11DC000E6A94 /* Pronto_Icon_114 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pronto_Icon_114 copy.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +60,10 @@
 		4917404815974E57000E6A94 = {
 			isa = PBXGroup;
 			children = (
+				49174080159A11DC000E6A94 /* Pronto_Icon_114 copy.png */,
+				4917407E159A119D000E6A94 /* Pronto_Icon_64 copy.png */,
+				4917407A15977836000E6A94 /* Icon@2x.png */,
+				491740781597782E000E6A94 /* Icon.png */,
 				4917405D15974E57000E6A94 /* Quiz */,
 				4917405615974E57000E6A94 /* Frameworks */,
 				4917405415974E57000E6A94 /* Products */,
@@ -82,6 +96,7 @@
 				4917406915974E57000E6A94 /* QuizViewController.h */,
 				4917406A15974E57000E6A94 /* QuizViewController.m */,
 				4917406C15974E57000E6A94 /* QuizViewController.xib */,
+				4917407C159A108E000E6A94 /* Pronto_Icon_64.png */,
 				4917405E15974E57000E6A94 /* Supporting Files */,
 			);
 			path = Quiz;
@@ -151,6 +166,11 @@
 			files = (
 				4917406215974E57000E6A94 /* InfoPlist.strings in Resources */,
 				4917406E15974E57000E6A94 /* QuizViewController.xib in Resources */,
+				491740791597782E000E6A94 /* Icon.png in Resources */,
+				4917407B15977836000E6A94 /* Icon@2x.png in Resources */,
+				4917407D159A108E000E6A94 /* Pronto_Icon_64.png in Resources */,
+				4917407F159A119D000E6A94 /* Pronto_Icon_64 copy.png in Resources */,
+				49174081159A11DC000E6A94 /* Pronto_Icon_114 copy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
